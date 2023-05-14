@@ -1,0 +1,43 @@
+body{
+    background: #EFE9F4;
+    color: #011936;
+}
+
+.container{
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+input::-webkit-input-placeholder{
+    color: rgba(239, 233, 244, 0.6) !important;
+    font-style: italic !important;
+
+}
+input:-moz-placeholder {
+    color: rgba(239, 233, 244, 0.6) !important;
+    font-style: italic !important;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: #EFE9F4;
+    border: none;
+    background: #011936;
+    max-width: 600px;
+}
+
+
+.todos li{
+    background: #F9DC5C;
+}
+
+.delete, .check{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
